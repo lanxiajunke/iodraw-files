@@ -43,7 +43,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-10" value="仿真性能结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-10" value="仿真性能结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=18;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="110" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3hdDwlum5xmoAkGVeSdn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-12" target="3hdDwlum5xmoAkGVeSdn-14">
@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-18" value="验证与完善" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-18" value="验证与完善" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
