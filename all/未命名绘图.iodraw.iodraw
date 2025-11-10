@@ -25,6 +25,9 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-10" target="3hdDwlum5xmoAkGVeSdn-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-10" target="3hdDwlum5xmoAkGVeSdn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3hdDwlum5xmoAkGVeSdn-10" value="仿真性能结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="110" width="80" height="80" as="geometry" />
         </mxCell>
@@ -49,8 +52,8 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-18" target="3hdDwlum5xmoAkGVeSdn-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="220" />
-              <mxPoint x="330" y="220" />
+              <mxPoint x="130" y="230" />
+              <mxPoint x="330" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
