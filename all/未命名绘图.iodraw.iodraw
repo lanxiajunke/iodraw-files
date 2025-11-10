@@ -19,14 +19,8 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-3" value="模型建立" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="270" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-5" target="3hdDwlum5xmoAkGVeSdn-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="3hdDwlum5xmoAkGVeSdn-5" value="器件仿真" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-7" value="性仿真" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
