@@ -40,7 +40,7 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-14" value="流片" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-16" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-16" value="器件测试" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="270" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
