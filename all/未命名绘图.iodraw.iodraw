@@ -49,7 +49,7 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-12" target="3hdDwlum5xmoAkGVeSdn-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-12" value="版图设计" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-12" value="版图设计" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3hdDwlum5xmoAkGVeSdn-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-14" target="3hdDwlum5xmoAkGVeSdn-16">
@@ -61,7 +61,7 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-16" target="3hdDwlum5xmoAkGVeSdn-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-16" value="器件测试" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-16" value="器件测试" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="270" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3hdDwlum5xmoAkGVeSdn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3hdDwlum5xmoAkGVeSdn-18" target="3hdDwlum5xmoAkGVeSdn-3">
@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3hdDwlum5xmoAkGVeSdn-18" value="验证与完善" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="3hdDwlum5xmoAkGVeSdn-18" value="验证与完善" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
