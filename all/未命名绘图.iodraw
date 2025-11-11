@@ -20,8 +20,14 @@
         <mxCell id="yQgPOS2UIwApUcixcjV0-1" value="TCAD仿真" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="279" y="124" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yQgPOS2UIwApUcixcjV0-2" value="TCAD仿真" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yQgPOS2UIwApUcixcjV0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yQgPOS2UIwApUcixcjV0-2" target="yQgPOS2UIwApUcixcjV0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yQgPOS2UIwApUcixcjV0-2" value="版图设计" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="124" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yQgPOS2UIwApUcixcjV0-4" value="" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="264" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
