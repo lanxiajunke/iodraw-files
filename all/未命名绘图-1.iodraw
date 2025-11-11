@@ -96,8 +96,14 @@
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;工艺建模与优化&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="651" y="613" width="166" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mcYbzrOvMfjvCoyvZ_j1-17" target="mcYbzrOvMfjvCoyvZ_j1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-17" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;工艺建模与优化&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="897" y="613" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-20" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;流片验证&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1143" y="613" width="166" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
