@@ -119,6 +119,9 @@
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;性能测试&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1143" y="473" width="166" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.475;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mcYbzrOvMfjvCoyvZ_j1-22" target="mcYbzrOvMfjvCoyvZ_j1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
