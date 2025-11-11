@@ -23,6 +23,9 @@
         <mxCell id="yQgPOS2UIwApUcixcjV0-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TCAD仿真&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="331" y="127" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yQgPOS2UIwApUcixcjV0-2" target="yQgPOS2UIwApUcixcjV0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yQgPOS2UIwApUcixcjV0-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;版图设计&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="598" y="69" width="120" height="60" as="geometry" />
         </mxCell>
