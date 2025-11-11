@@ -30,16 +30,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yQgPOS2UIwApUcixcjV0-4" value="工艺设计" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="69" y="267" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="267" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQgPOS2UIwApUcixcjV0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yQgPOS2UIwApUcixcjV0-6" target="yQgPOS2UIwApUcixcjV0-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yQgPOS2UIwApUcixcjV0-6" value="流片" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="69" y="267" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="267" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yQgPOS2UIwApUcixcjV0-8" value="器件测试" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="69" y="267" width="120" height="60" as="geometry" />
+          <mxGeometry x="63" y="267" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
