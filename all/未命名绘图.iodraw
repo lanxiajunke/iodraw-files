@@ -57,6 +57,9 @@
         <mxCell id="3hdDwlum5xmoAkGVeSdn-18" value="验证与完善" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;textShadow=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yQgPOS2UIwApUcixcjV0-0" value="版图设计" style="whiteSpace=wrap;html=1;rounded=1;fontSize=18;textShadow=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="697" y="113" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
