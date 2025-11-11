@@ -78,11 +78,17 @@
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-9" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;纵向结构&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: initial;&quot;&gt;设计&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="273" y="655" width="141" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mcYbzrOvMfjvCoyvZ_j1-11" target="mcYbzrOvMfjvCoyvZ_j1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-11" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;版图设计&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="493" y="559" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-13" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;工艺设计&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="494" y="655" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;版图设计&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="709" y="610" width="141" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
