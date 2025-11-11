@@ -87,7 +87,7 @@
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-13" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;工艺设计&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="494" y="655" width="141" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;版图设计&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;工艺建模与优化&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="709" y="610" width="141" height="60" as="geometry" />
         </mxCell>
       </root>
