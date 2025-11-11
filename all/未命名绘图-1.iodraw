@@ -108,7 +108,15 @@
         <mxCell id="mcYbzrOvMfjvCoyvZ_j1-20" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;流片验证&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1143" y="613" width="166" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;流片验证&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mcYbzrOvMfjvCoyvZ_j1-22" target="mcYbzrOvMfjvCoyvZ_j1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-25" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mcYbzrOvMfjvCoyvZ_j1-24">
+          <mxGeometry x="-0.2552" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcYbzrOvMfjvCoyvZ_j1-22" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;性能测试&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=default;textShadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1143" y="473" width="166" height="60" as="geometry" />
         </mxCell>
       </root>
