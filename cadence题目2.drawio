@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="第 1 页" id="4M3h7MPVSdov_wmJzgXf">
     <mxGraphModel dx="2006" dy="1106" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -141,6 +141,168 @@
             <Array as="points">
               <mxPoint x="969" y="797" />
               <mxPoint x="969" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="id21SR8CqIxHMOM4Yqzj" name="第 2 页">
+    <mxGraphModel dx="1380" dy="136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#eef4fb;strokeColor=#5b8cbb;fontStyle=1;fontSize=14;shadow=1;strokeWidth=2;fontColor=#1a3b5c;" value="总线与控制系统" vertex="1">
+          <mxGeometry height="320" width="280" x="-60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#fef6e6;strokeColor=#d4a543;fontStyle=1;fontSize=14;shadow=1;strokeWidth=2;fontColor=#7a5b1e;" value="DMA与存储子系统" vertex="1">
+          <mxGeometry height="390" width="680" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#eaf7ed;strokeColor=#5b9e6b;fontStyle=1;fontSize=14;shadow=1;strokeWidth=2;fontColor=#1b4d2a;labelBackgroundColor=none;gradientColor=none;" value="核心计算数据通路 (Datapath)" vertex="1">
+          <mxGeometry height="340" width="1050" x="-50" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qk_mac" parent="g3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#b4661a;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;fontColor=#6b3c0f;" value="QK 乘加阵列&#xa;(Q_i * K_j^T)" vertex="1">
+          <mxGeometry height="85" width="145" x="50" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axi_lite" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#3b6e9c;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;fontColor=#1e4663;" value="AXI4-Lite 从机接口&#xa;(控制总线)" vertex="1">
+          <mxGeometry height="50" width="200" x="-35" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="regs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#7b5f9a;fontSize=12;shadow=1;strokeWidth=2;fontColor=#3a2a4a;" value="配置寄存器组&#xa;(基地址, N, S, d 等)" vertex="1">
+          <mxGeometry height="65" width="200" x="-35" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fsm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#7b5f9a;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;fontColor=#3a2a4a;" value="主状态机&#xa;(外层 Tr 与内层 Tc 循环调度)" vertex="1">
+          <mxGeometry height="60" width="200" x="-35" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="axi_master" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#3b6e9c;fontSize=13;fontStyle=1;shadow=1;strokeWidth=2;fontColor=#1e4663;" value="AXI4 主机接口 (DMA搬运引擎)" vertex="1">
+          <mxGeometry height="50" width="300" x="480" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sram_q" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#c9a03d;fontSize=12;shadow=1;strokeWidth=2;fontColor=#7a5b1e;" value="Q 缓存 (SRAM_Q)&#xa;8KB" vertex="1">
+          <mxGeometry height="75" width="130" x="340" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sram_o" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#c9a03d;fontSize=12;shadow=1;strokeWidth=2;fontColor=#7a5b1e;" value="O 累加缓存 (SRAM_O)&#xa;16KB / 32位累加" vertex="1">
+          <mxGeometry height="75" width="160" x="720" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sram_k" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#c9a03d;fontSize=12;shadow=1;strokeWidth=2;fontColor=#7a5b1e;" value="K 乒乓缓存 (SRAM_K)&#xa;16KB" vertex="1">
+          <mxGeometry height="75" width="140" x="340" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="sram_v" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#c9a03d;fontSize=12;shadow=1;strokeWidth=2;fontColor=#7a5b1e;" value="V 乒乓缓存 (SRAM_V)&#xa;16KB" vertex="1">
+          <mxGeometry height="75" width="140" x="530" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_reg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde4c2;strokeColor=#c9a03d;fontSize=12;shadow=1;strokeWidth=2;fontColor=#7a5b1e;" value="上下文寄存器堆 (m_local, d_local) 深度: 64" vertex="1">
+          <mxGeometry height="45" width="550" x="340" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="scale_mask" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#b4661a;fontSize=12;shadow=1;strokeWidth=2;fontColor=#6b3c0f;" value="缩放与动态掩码&#xa;(右移3位, Causal MUX)" vertex="1">
+          <mxGeometry height="85" width="145" x="250" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="softmax" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#b4661a;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;fontColor=#6b3c0f;" value="在线 Softmax 引擎&#xa;(求最大值, EXP查表, d累加)" vertex="1">
+          <mxGeometry height="85" width="190" x="430" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pv_mac" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#b4661a;fontSize=12;fontStyle=1;shadow=1;strokeWidth=2;fontColor=#6b3c0f;" value="PV 乘加阵列&#xa;(P_ij * V_j)" vertex="1">
+          <mxGeometry height="85" width="145" x="655" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="o_upd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#b4661a;fontSize=12;shadow=1;strokeWidth=2;fontColor=#6b3c0f;" value="O 矩阵更新单元&#xa;(O * exp_diff + P*V)" vertex="1">
+          <mxGeometry height="85" width="150" x="830" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="div_quant" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#b4661a;fontSize=12;shadow=1;strokeWidth=2;fontColor=#6b3c0f;" value="除法与量化单元&#xa;(O_local / d_global, Q8.8 饱和截断)" vertex="1">
+          <mxGeometry height="65" width="325" x="655" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="axi_lite" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#5b8cbb;fillColor=none;" target="regs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="regs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#5b8cbb;fillColor=none;" target="fsm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="fsm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#5b8cbb;fontColor=#2c5a8c;fontSize=11;fontStyle=1;labelBackgroundColor=default;" target="axi_master" value="DMA 启动请求">
+          <mxGeometry relative="1" x="0.1905" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_fsm_dp" edge="1" parent="1" source="fsm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.25;entryY=0;dashed=1;strokeWidth=2;strokeColor=#7b5f9a;fontColor=#3a2a4a;fontSize=11;" target="qk_mac" value="流水线调度与控制">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="410" />
+              <mxPoint x="81" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="axi_master" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.2;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#d4a543;fontColor=#7a5b1e;fontSize=11;labelBackgroundColor=none;" target="sram_q" value="写入 Q">
+          <mxGeometry relative="1" x="0.0285" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.4;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#d4a543;fontColor=#7a5b1e;fontSize=11;" value="写入 K">
+          <mxGeometry relative="1" x="-0.2236" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="630" y="182.5" />
+              <mxPoint x="440" y="182.5" />
+            </Array>
+            <mxPoint x="630" y="162.5" as="sourcePoint" />
+            <mxPoint x="440" y="307.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="axi_master" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.6;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#d4a543;fontColor=#7a5b1e;fontSize=11;" target="sram_v" value="写入 V">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="150" />
+              <mxPoint x="600" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="sram_q" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.3;entryY=0;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;fontStyle=1;" target="qk_mac" value="Q">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="sram_k" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.7;entryY=0;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;fontStyle=1;" target="qk_mac" value="K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="sram_v" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;fontStyle=1;" target="pv_mac" value="V">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="sram_o" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;" target="o_upd" value="上一拍 O">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="qk_mac" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;fontStyle=1;" target="scale_mask" value="S_ij">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="560" />
+              <mxPoint x="250" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="scale_mask" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;" target="softmax" value="调整后 S_ij">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="softmax" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.3;exitY=0;entryX=0.3;entryY=1;strokeWidth=2;strokeColor=#7b5f9a;fontColor=#3a2a4a;fontSize=10;dashed=1;" target="ctx_reg" value="写回 m, d">
+          <mxGeometry relative="1" x="0.6296" y="25" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="ctx_reg" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.7;exitY=1;entryX=0.7;entryY=0;strokeWidth=2;strokeColor=#7b5f9a;fontColor=#3a2a4a;fontSize=10;dashed=1;" target="softmax" value="读取当前 m, d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="softmax" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.3;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;fontStyle=1;" target="pv_mac" value="P_ij">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="pv_mac" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.3;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;" target="o_upd" value="P*V">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="softmax" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.7;entryX=0;entryY=0.7;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;" target="o_upd" value="exp_diff">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="o_upd" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.3;exitY=0;entryX=0.3;entryY=1;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=10;" target="sram_o" value="累加后写回">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="sram_o" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;entryX=0.25;entryY=0;strokeWidth=2;strokeColor=#b4661a;fontColor=#6b3c0f;fontSize=11;" target="div_quant" value="O_local">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="ctx_reg" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.9;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#7b5f9a;fontColor=#3a2a4a;fontSize=11;dashed=1;" target="div_quant" value="d_global">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="div_quant" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;strokeWidth=2;strokeColor=#3b6e9c;fontColor=#1e4663;fontSize=11;" target="axi_master" value="最终结果 O (Q8.8) 写出">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="692" />
+              <mxPoint x="1010" y="115" />
             </Array>
           </mxGeometry>
         </mxCell>
